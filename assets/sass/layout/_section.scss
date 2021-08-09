@@ -1,0 +1,52 @@
+.section{
+    display: flex;
+    align-items: flex-start;
+
+    .section__title {
+        font-size: $x_large;
+        margin-left: 16%;
+        font-family:$fontMono;
+        font-weight: 300;
+    }
+
+    .section__text {
+        font-size: $--medium;
+        width: 61%;
+        margin-left: 17%;
+        margin-top: -20px;
+        font-family:$fontRobo;
+    }
+    
+    
+    .box__blue {
+        width: 469px;
+        height: 200px;
+        background-color: $celeste;
+        margin-top: 0px;
+    
+    }
+
+    .img-4 {
+        width: 414px;
+        height: 186px;
+        position: absolute;
+        margin-top: -180px;
+        margin-left: -20px;
+    }
+
+    .img-3 {
+        background-position: center;
+        width: 87px;
+        height: 144px;
+        position: absolute;
+        margin-top: -200px;
+        margin-left: 425px;
+    }
+
+    .img-2 {
+        margin-right: -20px;
+    }
+    
+    
+}
+

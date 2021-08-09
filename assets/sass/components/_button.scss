@@ -1,0 +1,47 @@
+.button {
+    margin-right: 10px;
+    float: right;
+    margin-top: -65px;
+
+    .iniciar {
+        background-color: $blanco;
+        color:$silver;
+        margin-right: 20px;
+        font-family: $fontMono;
+        font-size: $small;
+        border: 1px solid $plomo;
+        padding: 6px;
+    }
+    
+    .iniciar {
+        background-color: $blanco;
+        border: 1px solid $plomo;
+    }
+    
+    .iniciar:hover {
+        background: $verde;
+        color: $blanco;
+        border: 1px solid;
+    }
+    
+    .registro {
+        margin-right: 71px;
+        font-family:$fontMono;
+        font-size: $small;
+        background-color: $blanco;
+        color: $silver;
+        border: 1px solid $plomo;
+        padding: 6px;
+    }
+    
+    .registro {
+        background-color: $blanco;
+        border: 1px solid $plomo;
+    }
+    
+    .registro:hover {
+        background: $verde;
+        color: $blanco;
+        border: 1px solid;
+    }
+}
